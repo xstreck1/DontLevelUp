@@ -2,18 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileGenerator : MonoBehaviour {
+public class TileGenerator : MonoBehaviour
+{
     public GameObject tilePrefab;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     public void GenerateTiles()
     {
@@ -29,10 +32,10 @@ public class TileGenerator : MonoBehaviour {
         {
             for (int z = 0; z < Values.TILES_Z_COUNT; z++)
             {
-                Debug.Log(x + ", " + z);
-                float height = Random.Range(1f, 2f);
+                float height = Mathf.PerlinNoise((float) x*.95f, (float)z * .95f);
+                Debug.Log(x + ", " + z + ": " + height);
                 GameObject newTile = Instantiate(tilePrefab, new Vector3(x, height / 2f, z), Quaternion.identity, tilesHolder.transform);
-                newTile.transform.localScale += Vector3.up * (height - 2);
+                newTile.transform.localScale += Vector3.up * (height - .5f);
             }
         }
     }
