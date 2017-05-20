@@ -9985,13 +9985,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1652173234022744, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 64144740241495070, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
-    - {fileID: 64041513355308682, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &346759655
@@ -32744,6 +32738,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
+  pickingLayer:
+    serializedVersion: 2
+    m_Bits: 272
 --- !u!1 &1263775804
 GameObject:
   m_ObjectHideFlags: 0
