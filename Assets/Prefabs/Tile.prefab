@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 33620061938151568}
   - component: {fileID: 64041513355308682}
   - component: {fileID: 23828760351118276}
+  - component: {fileID: 114876750303528290}
+  - component: {fileID: 114050386091490662}
   m_Layer: 0
   m_Name: NatureTop
   m_TagString: Untagged
@@ -40,6 +42,8 @@ GameObject:
   - component: {fileID: 33961669330588148}
   - component: {fileID: 64144740241495070}
   - component: {fileID: 23387108532430004}
+  - component: {fileID: 114355314518611508}
+  - component: {fileID: 114035087704731456}
   m_Layer: 0
   m_Name: CivilizationTop
   m_TagString: Untagged
@@ -104,7 +108,6 @@ GameObject:
   - component: {fileID: 33930098194700116}
   - component: {fileID: 65392987748070246}
   - component: {fileID: 23977652691992650}
-  - component: {fileID: 114847520106658658}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -208,7 +211,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 71221994313eb7e499787efcfb55d9f1, type: 2}
+  - {fileID: 2100000, guid: 0c107e150b58963468a40b452d74e4a2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -240,7 +243,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0c107e150b58963468a40b452d74e4a2, type: 2}
+  - {fileID: 2100000, guid: 71221994313eb7e499787efcfb55d9f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -352,6 +355,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114035087704731456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1463793725681610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78feaede140edf4b8436b65daa0889f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeTime: 1
+--- !u!114 &114050386091490662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1268132049915742}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25da9e66ab4071946a3bf49044c3363b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialTextures: []
+  AnimLoopTextures:
+  - {fileID: 2800000, guid: 4fdc0a771a8df7a42bfa0470e9cbbed0, type: 3}
+  - {fileID: 2800000, guid: 3e58d9cd27e8dae4dafd7bace16afe48, type: 3}
+  AnimDelay: 0.5
+--- !u!114 &114355314518611508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1463793725681610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25da9e66ab4071946a3bf49044c3363b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialTextures:
+  - {fileID: 2800000, guid: a7eb7f56267e57c4f83d64adbb15b50f, type: 3}
+  - {fileID: 2800000, guid: ff300eb51d4ad554e8d445e8c127d7a0, type: 3}
+  - {fileID: 2800000, guid: c8b486cb31fae7343a6335f8c0168450, type: 3}
+  AnimLoopTextures:
+  - {fileID: 2800000, guid: 2991fdc2c38aa2942aa3a8a6aecf967e, type: 3}
+  - {fileID: 2800000, guid: c440829f43b96044498ead574b140d50, type: 3}
+  - {fileID: 2800000, guid: f59bb8165b4cc1245aa9fd887cdb4007, type: 3}
+  AnimDelay: 0.5
 --- !u!114 &114658107782824656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -370,21 +421,16 @@ MonoBehaviour:
   type: 2
   X: 0
   Y: 0
---- !u!114 &114847520106658658
+  Height: 0
+--- !u!114 &114876750303528290
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875404752775404}
+  m_GameObject: {fileID: 1268132049915742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b9172f5dadbc854a91596345780e0e8, type: 3}
+  m_Script: {fileID: 11500000, guid: e78feaede140edf4b8436b65daa0889f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundHolder: {fileID: 0}
-  top: {fileID: 0}
-  natureTop: {fileID: 0}
-  civilizationTop: {fileID: 0}
-  type: 0
-  X: 0
-  Y: 0
+  FadeTime: 1
