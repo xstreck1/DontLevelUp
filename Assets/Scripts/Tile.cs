@@ -11,6 +11,7 @@ public enum TileType
 
 public class Tile : MonoBehaviour {
     public GameObject groundHolder;
+    public GameObject top;
     public GameObject natureTop;
     public GameObject civilizationTop;
     public TileType type;
@@ -25,6 +26,21 @@ public class Tile : MonoBehaviour {
         set
         {
             type = value;
+            switch (type)
+            {
+                case TileType.Factory:
+                    natureTop.SetActive(false);
+                    civilizationTop.SetActive(true);
+                    break;
+                case TileType.Green:
+                    natureTop.SetActive(true);
+                    civilizationTop.SetActive(false);
+                    break;
+                case TileType.UnderWater:
+                    natureTop.SetActive(false);
+                    civilizationTop.SetActive(false);
+                    break;
+            }
         }
     }
 
