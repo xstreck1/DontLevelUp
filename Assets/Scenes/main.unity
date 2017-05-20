@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 739542485}
-  m_IndirectSpecularColor: {r: 0.43895182, g: 0.4871649, b: 0.5674243, a: 1}
+  m_IndirectSpecularColor: {r: 0.43748933, g: 0.48531222, b: 0.56558746, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -181,7 +181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2270356
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +420,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &20056796
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -598,7 +600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 969862546}
-  content: {fileID: 1386833661}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &37613018
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +814,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &41972281
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1074,7 +1078,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 524699623}
-  content: {fileID: 1278376206}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &53936185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &53936188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1383,7 +1389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &67381284
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1479,7 +1486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &81547323
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1574,7 +1582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 139913033}
-  content: {fileID: 1138868691}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &86048062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,7 +1711,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 291724994}
-  content: {fileID: 1920375132}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &89489980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,7 +1869,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1749279308}
-  content: {fileID: 1779692015}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &113052817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +1914,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 914025698}
-  content: {fileID: 1654570372}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &115289988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,7 +2128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &123662449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2296,7 +2309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &132820381
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2504,7 +2518,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1876371996}
-  content: {fileID: 1718335939}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &143458041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,7 +2622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &152273150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2786,7 +2802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2021077308}
-  content: {fileID: 1834244700}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &161906682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,7 +2935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &181663600
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3098,7 +3116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &190974211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3193,7 +3212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 350324236}
-  content: {fileID: 1421291419}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &199387747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,7 +3258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &199387750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3333,7 +3354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 509524774}
-  content: {fileID: 1147749060}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &209911865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,7 +3484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &210585590
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3558,7 +3581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &210753590
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3683,7 +3707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &216858891
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3807,7 +3832,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1761466305}
-  content: {fileID: 752408886}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &224511706
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,7 +3961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1946879770}
-  content: {fileID: 1967016551}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &230366102
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,7 +4035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 444352308}
-  content: {fileID: 2023347815}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &235770823
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,7 +4080,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1966918929}
-  content: {fileID: 703299384}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &236953904
 GameObject:
   m_ObjectHideFlags: 0
@@ -4096,7 +4125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1672925293}
-  content: {fileID: 1446610589}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &245728670
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,7 +4283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 967077680}
-  content: {fileID: 2055322523}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &253490552
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,7 +4525,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 687509295}
-  content: {fileID: 1684399075}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &267828927
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 213789410}
-  content: {fileID: 2059057499}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &269425779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,7 +4616,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &269425782
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4736,7 +4770,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 476436944}
-  content: {fileID: 1210286127}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &289518468
 GameObject:
   m_ObjectHideFlags: 0
@@ -5203,7 +5238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 704151749}
-  content: {fileID: 2090049351}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &309143368
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,7 +5283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1762804680}
-  content: {fileID: 1647059561}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &310615377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5292,7 +5329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &310615380
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5500,7 +5538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1679904616}
-  content: {fileID: 360752859}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &322695494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5544,7 +5583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2126932756}
-  content: {fileID: 1065966833}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &322797883
 GameObject:
   m_ObjectHideFlags: 0
@@ -5588,7 +5628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1316201455}
-  content: {fileID: 319461811}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &325781006
 GameObject:
   m_ObjectHideFlags: 0
@@ -5738,7 +5779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1428611780}
-  content: {fileID: 1573748754}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &337351603
 GameObject:
   m_ObjectHideFlags: 0
@@ -5782,7 +5824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 486593549}
-  content: {fileID: 1181297562}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &337978686
 GameObject:
   m_ObjectHideFlags: 0
@@ -5940,7 +5983,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &341763456
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6119,7 +6163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2104917445}
-  content: {fileID: 928679314}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &350101052
 GameObject:
   m_ObjectHideFlags: 0
@@ -6334,7 +6379,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 687655628}
-  content: {fileID: 636089995}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &356182910
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,7 +6424,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 433092360}
-  content: {fileID: 1763768050}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &360752859
 GameObject:
   m_ObjectHideFlags: 0
@@ -6507,7 +6554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &365433962
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6661,7 +6709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &377021157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6756,7 +6805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1038780276}
-  content: {fileID: 461520252}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &382515379
 GameObject:
   m_ObjectHideFlags: 0
@@ -6914,7 +6964,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &390714616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7010,7 +7061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &394274429
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7134,7 +7186,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1662206753}
-  content: {fileID: 1822433450}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &421781080
 GameObject:
   m_ObjectHideFlags: 0
@@ -7179,7 +7232,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &421781083
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7358,7 +7412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1956004840}
-  content: {fileID: 2040614908}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &433092360
 GameObject:
   m_ObjectHideFlags: 0
@@ -7461,7 +7516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &438324528
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7640,7 +7696,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 911733839}
-  content: {fileID: 1997739474}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &444352308
 GameObject:
   m_ObjectHideFlags: 0
@@ -7714,7 +7771,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &445949485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7809,7 +7867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1644760}
-  content: {fileID: 636222956}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &450393005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7967,7 +8026,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &455961074
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8062,7 +8122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1536858897}
-  content: {fileID: 1031140250}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &461520252
 GameObject:
   m_ObjectHideFlags: 0
@@ -8304,7 +8365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &476657470
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8484,7 +8546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &483097250
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8976,7 +9039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 979278129}
-  content: {fileID: 577275451}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &524699623
 GameObject:
   m_ObjectHideFlags: 0
@@ -9049,7 +9113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 821763673}
-  content: {fileID: 442071902}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &535774870
 GameObject:
   m_ObjectHideFlags: 0
@@ -9178,7 +9243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &536641931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9273,7 +9339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1169467023}
-  content: {fileID: 2000375361}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &538548834
 GameObject:
   m_ObjectHideFlags: 0
@@ -9318,7 +9385,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &538548837
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9611,7 +9679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &555819892
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9820,7 +9889,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &568289714
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9915,7 +9985,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 799052298}
-  content: {fileID: 1445725382}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &576442330
 GameObject:
   m_ObjectHideFlags: 0
@@ -9960,7 +10031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &576442333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10310,7 +10382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1473279499}
-  content: {fileID: 128692541}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &595757981
 GameObject:
   m_ObjectHideFlags: 0
@@ -10439,7 +10512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &599133763
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10535,7 +10609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &604933042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10630,7 +10705,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 350101052}
-  content: {fileID: 26426910}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &611188418
 GameObject:
   m_ObjectHideFlags: 0
@@ -10758,7 +10834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2084518009}
-  content: {fileID: 1312488776}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &618672304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10802,7 +10879,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 504035700}
-  content: {fileID: 1496048811}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &622321536
 GameObject:
   m_ObjectHideFlags: 0
@@ -11098,7 +11176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 587188614}
-  content: {fileID: 86048062}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &642792250
 GameObject:
   m_ObjectHideFlags: 0
@@ -11142,7 +11221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1435917421}
-  content: {fileID: 1443935077}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &648763722
 GameObject:
   m_ObjectHideFlags: 0
@@ -11187,7 +11267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &648763725
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11283,7 +11364,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &651494884
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11407,7 +11489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 996851913}
-  content: {fileID: 1230285247}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &665258256
 GameObject:
   m_ObjectHideFlags: 0
@@ -11451,7 +11534,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 861124994}
-  content: {fileID: 382515379}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &668445248
 GameObject:
   m_ObjectHideFlags: 0
@@ -11496,7 +11580,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &668445251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11591,7 +11676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1230714491}
-  content: {fileID: 291042143}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &670007995
 GameObject:
   m_ObjectHideFlags: 0
@@ -11665,7 +11751,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &670089481
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11760,7 +11847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1947276542}
-  content: {fileID: 1596206443}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &671856951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11805,7 +11893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &671856954
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11900,7 +11989,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1636934202}
-  content: {fileID: 1374717161}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &682087025
 GameObject:
   m_ObjectHideFlags: 0
@@ -11945,7 +12035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &682087028
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12145,7 +12236,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &685525460
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12327,7 +12419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1942450258}
-  content: {fileID: 622321536}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &697395752
 GameObject:
   m_ObjectHideFlags: 0
@@ -12372,7 +12465,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &697395755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12693,7 +12787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 501812968}
-  content: {fileID: 1003003125}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &716944690
 GameObject:
   m_ObjectHideFlags: 0
@@ -12738,7 +12833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &716944693
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12834,7 +12930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &719872824
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12908,7 +13005,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 720960783}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.851944, y: -0.3963505, z: 4.727159}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1346909038}
@@ -13061,7 +13158,7 @@ Transform:
   - {fileID: 1289241873}
   - {fileID: 1975513114}
   - {fileID: 322695495}
-  m_Father: {fileID: 1124516987}
+  m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &732566991
@@ -13107,7 +13204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 656033480}
-  content: {fileID: 2108067118}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &733013244
 GameObject:
   m_ObjectHideFlags: 0
@@ -13151,7 +13249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1248457619}
-  content: {fileID: 1885705043}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &735899121
 GameObject:
   m_ObjectHideFlags: 0
@@ -13239,13 +13338,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 739542484}
-  m_LocalRotation: {x: 0.75771207, y: 0.12298352, z: -0.28041184, w: 0.57629573}
-  m_LocalPosition: {x: 7.851944, y: 1.6036495, z: 4.727159}
+  m_LocalRotation: {x: 0.7366117, y: 0.11494653, z: -0.18998054, w: 0.6388255}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1124516987}
+  m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 109.558, y: 57.775993, z: 24.125992}
+  m_LocalEulerAnglesHint: {x: 100, y: 50, z: 25}
 --- !u!1 &752408886
 GameObject:
   m_ObjectHideFlags: 0
@@ -13374,7 +13473,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &756642895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13470,7 +13570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &757567042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13566,7 +13667,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &761429138
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13690,7 +13792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2067283584}
-  content: {fileID: 919067359}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &772307870
 GameObject:
   m_ObjectHideFlags: 0
@@ -13734,7 +13837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 230366102}
-  content: {fileID: 591529918}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &772411952
 GameObject:
   m_ObjectHideFlags: 0
@@ -13778,7 +13882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1874530050}
-  content: {fileID: 41529424}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &776400344
 GameObject:
   m_ObjectHideFlags: 0
@@ -13907,7 +14012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &780959097
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14003,7 +14109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &790035389
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14128,7 +14235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &800567940
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14253,7 +14361,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &819770263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14377,7 +14486,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1789981231}
-  content: {fileID: 1297488270}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &831260654
 GameObject:
   m_ObjectHideFlags: 0
@@ -14421,7 +14531,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1249168832}
-  content: {fileID: 465865299}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &838155239
 GameObject:
   m_ObjectHideFlags: 0
@@ -14494,7 +14605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1689530853}
-  content: {fileID: 932318652}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &849971692
 GameObject:
   m_ObjectHideFlags: 0
@@ -14651,7 +14763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1451882587}
-  content: {fileID: 890662236}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &852796911
 GameObject:
   m_ObjectHideFlags: 0
@@ -14695,7 +14808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1046990580}
-  content: {fileID: 13555742}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &859189945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14740,7 +14854,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &859189948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14948,7 +15063,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1998767510}
-  content: {fileID: 1912123372}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &866614467
 GameObject:
   m_ObjectHideFlags: 0
@@ -14993,7 +15109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &866614470
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15257,7 +15374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &879277771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15381,7 +15499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 434682506}
-  content: {fileID: 209911865}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &885311163
 GameObject:
   m_ObjectHideFlags: 0
@@ -15426,7 +15545,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &885311166
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15561,10 +15681,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886735739}
   m_LocalRotation: {x: 0.088521354, y: -0.90767336, z: 0.24321039, w: 0.33036613}
-  m_LocalPosition: {x: 19.141945, y: 17.30365, z: 22.81716}
+  m_LocalPosition: {x: 15.83, y: 21.54, z: 23.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1124516987}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: -140, z: 0}
 --- !u!1 &890662236
@@ -15694,7 +15814,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1653972469}
-  content: {fileID: 868613485}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &905307967
 GameObject:
   m_ObjectHideFlags: 0
@@ -15739,7 +15860,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &905307970
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15835,7 +15957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &906307615
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15930,7 +16053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 296237604}
-  content: {fileID: 1963474702}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &911733839
 GameObject:
   m_ObjectHideFlags: 0
@@ -16033,7 +16157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &918494018
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16128,7 +16253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1700828982}
-  content: {fileID: 1143909771}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &919067359
 GameObject:
   m_ObjectHideFlags: 0
@@ -16257,7 +16383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &924319215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16353,7 +16480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &926235323
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16616,7 +16744,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 161906682}
-  content: {fileID: 595757981}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &935459787
 GameObject:
   m_ObjectHideFlags: 0
@@ -16660,7 +16789,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1281416013}
-  content: {fileID: 1736803215}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &935502033
 GameObject:
   m_ObjectHideFlags: 0
@@ -16733,7 +16863,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1615244971}
-  content: {fileID: 2015417715}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &945985311
 GameObject:
   m_ObjectHideFlags: 0
@@ -16777,7 +16908,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1964225671}
-  content: {fileID: 776400344}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &947796728
 GameObject:
   m_ObjectHideFlags: 0
@@ -16822,7 +16954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &947796731
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16917,7 +17050,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1562279329}
-  content: {fileID: 294957091}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &951986186
 GameObject:
   m_ObjectHideFlags: 0
@@ -16962,7 +17096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &951986189
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17170,7 +17305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 450393005}
-  content: {fileID: 2026565512}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &962236162
 GameObject:
   m_ObjectHideFlags: 0
@@ -17214,7 +17350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 541852691}
-  content: {fileID: 1551865150}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &967077680
 GameObject:
   m_ObjectHideFlags: 0
@@ -17346,7 +17483,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &986694292
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17529,7 +17667,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &998802851
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17625,7 +17764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1001879454
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17721,7 +17861,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1002647483
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18068,7 +18209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1236062356}
-  content: {fileID: 1987077536}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1031140250
 GameObject:
   m_ObjectHideFlags: 0
@@ -18196,7 +18338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 367244090}
-  content: {fileID: 486481410}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1036990436
 GameObject:
   m_ObjectHideFlags: 0
@@ -18241,7 +18384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1036990439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18394,7 +18538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 90342251}
-  content: {fileID: 1177965430}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1046091450
 GameObject:
   m_ObjectHideFlags: 0
@@ -18439,7 +18584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1046091453
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18564,7 +18710,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1055841532
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18688,7 +18835,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1382899374}
-  content: {fileID: 1244953853}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1065966833
 GameObject:
   m_ObjectHideFlags: 0
@@ -18816,7 +18964,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 143458041}
-  content: {fileID: 266782531}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1086334396
 GameObject:
   m_ObjectHideFlags: 0
@@ -18861,7 +19010,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1086334399
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18956,7 +19106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2048230555}
-  content: {fileID: 120718646}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1104420883
 GameObject:
   m_ObjectHideFlags: 0
@@ -19001,7 +19152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1104420886
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19096,7 +19248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 375023080}
-  content: {fileID: 58436344}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1123265764
 GameObject:
   m_ObjectHideFlags: 0
@@ -19181,40 +19334,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1123265764}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1124516986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1124516987}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1124516987
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1124516986}
-  m_LocalRotation: {x: -0, y: -0, z: 0.027105577, w: 0.99963266}
-  m_LocalPosition: {x: -7.851944, y: 0.3963505, z: -4.727159}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 886735744}
-  - {fileID: 739542486}
-  - {fileID: 1263683184}
-  - {fileID: 1811814147}
-  - {fileID: 1568364920}
-  - {fileID: 720960784}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.1060002}
 --- !u!1 &1125418869
 GameObject:
   m_ObjectHideFlags: 0
@@ -19258,7 +19377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 689672366}
-  content: {fileID: 337978686}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1126789724
 GameObject:
   m_ObjectHideFlags: 0
@@ -19386,7 +19506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 313829765}
-  content: {fileID: 1123265764}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1132789491
 GameObject:
   m_ObjectHideFlags: 0
@@ -19431,7 +19552,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1132789494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19610,7 +19732,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2034799483}
-  content: {fileID: 539602555}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1141555537
 GameObject:
   m_ObjectHideFlags: 0
@@ -19654,7 +19777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1648023313}
-  content: {fileID: 539232508}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1141585889
 GameObject:
   m_ObjectHideFlags: 0
@@ -19698,7 +19822,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1753063326}
-  content: {fileID: 567510502}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1143772547
 GameObject:
   m_ObjectHideFlags: 0
@@ -19911,7 +20036,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1144171751
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20091,7 +20217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1148413754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20187,7 +20314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1152579215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20818,7 +20946,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1616552172}
-  content: {fileID: 184510936}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1198622582
 GameObject:
   m_ObjectHideFlags: 0
@@ -20862,7 +20991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1594121834}
-  content: {fileID: 1126789724}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1200345224
 GameObject:
   m_ObjectHideFlags: 0
@@ -20906,7 +21036,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 838155239}
-  content: {fileID: 1605929701}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1201244755
 GameObject:
   m_ObjectHideFlags: 0
@@ -20951,7 +21082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1201244758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21046,7 +21178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1663669326}
-  content: {fileID: 480766399}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1203697965
 GameObject:
   m_ObjectHideFlags: 0
@@ -21090,7 +21223,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1555270667}
-  content: {fileID: 1250816279}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1210286127
 GameObject:
   m_ObjectHideFlags: 0
@@ -21248,7 +21382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1216071294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21344,7 +21479,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1216165307
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21469,7 +21605,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1223320772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21565,7 +21702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1227983821
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21773,7 +21911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 987984125}
-  content: {fileID: 344511232}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1236062356
 GameObject:
   m_ObjectHideFlags: 0
@@ -22014,7 +22153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2022437282}
-  content: {fileID: 266675902}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1248457619
 GameObject:
   m_ObjectHideFlags: 0
@@ -22201,7 +22341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1252925858
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22296,7 +22437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 150061118}
-  content: {fileID: 2067990605}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1258902750
 GameObject:
   m_ObjectHideFlags: 0
@@ -22341,7 +22483,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1258902753
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22429,11 +22572,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1263683182}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 7.851944, y: 2.6036496, z: 4.727159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1124516987}
+  m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1271528856
@@ -22564,7 +22707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1273999680
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22660,7 +22804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1274461697
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22924,7 +23069,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1279614380
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23048,7 +23194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 578750356}
-  content: {fileID: 1437110822}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1289241872
 GameObject:
   m_ObjectHideFlags: 0
@@ -23092,7 +23239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1181567740}
-  content: {fileID: 296972243}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1297488270
 GameObject:
   m_ObjectHideFlags: 0
@@ -23249,7 +23397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 387489378}
-  content: {fileID: 961565597}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1301285955
 GameObject:
   m_ObjectHideFlags: 0
@@ -23294,7 +23443,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1301285958
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23390,7 +23540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1306212099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23598,7 +23749,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 402113531}
-  content: {fileID: 48487172}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1325104859
 GameObject:
   m_ObjectHideFlags: 0
@@ -23642,7 +23794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 807297402}
-  content: {fileID: 1631509649}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1329768022
 GameObject:
   m_ObjectHideFlags: 0
@@ -23771,7 +23924,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1336113535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23867,7 +24021,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1338578571
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23962,7 +24117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 252042709}
-  content: {fileID: 1276728359}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1346909037
 GameObject:
   m_ObjectHideFlags: 0
@@ -24006,7 +24162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1297788632}
-  content: {fileID: 1013750359}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1352299872
 GameObject:
   m_ObjectHideFlags: 0
@@ -24051,7 +24208,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1352299875
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24147,7 +24305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1355578200
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24243,7 +24402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1356065264
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24338,7 +24498,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 6733234}
-  content: {fileID: 245728670}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1373415154
 GameObject:
   m_ObjectHideFlags: 0
@@ -24383,7 +24544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1373415157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24478,7 +24640,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1576914500}
-  content: {fileID: 1971997814}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1374717161
 GameObject:
   m_ObjectHideFlags: 0
@@ -24748,7 +24911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1153703101}
-  content: {fileID: 155875359}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1394116841
 GameObject:
   m_ObjectHideFlags: 0
@@ -24793,7 +24957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1394116844
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24888,7 +25053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 994070619}
-  content: {fileID: 1909912905}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1406618836
 GameObject:
   m_ObjectHideFlags: 0
@@ -24932,7 +25098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1834370192}
-  content: {fileID: 138250886}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1411026789
 GameObject:
   m_ObjectHideFlags: 0
@@ -24977,7 +25144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1411026792
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25270,7 +25438,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1416034249
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25479,7 +25648,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1433459445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25688,7 +25858,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1439426220
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26148,7 +26319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 763296299}
-  content: {fileID: 290549766}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1448287484
 GameObject:
   m_ObjectHideFlags: 0
@@ -26193,7 +26365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1448287487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26289,7 +26462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1451880244
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26413,7 +26587,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 881184191}
-  content: {fileID: 483200167}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1473279499
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,7 +26662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1475968835
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26583,7 +26759,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1479964933
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26678,7 +26855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1496489906}
-  content: {fileID: 1236243321}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1496048811
 GameObject:
   m_ObjectHideFlags: 0
@@ -26920,7 +27098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1500966555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27016,7 +27195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1525403004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27140,7 +27320,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 701993513}
-  content: {fileID: 1940885500}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1543207979
 GameObject:
   m_ObjectHideFlags: 0
@@ -27185,7 +27366,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1543207982
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27281,7 +27463,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1544053137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27490,7 +27673,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1556082810
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27782,7 +27966,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1211411623}
-  content: {fileID: 1496771009}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1564291147
 GameObject:
   m_ObjectHideFlags: 0
@@ -27827,7 +28012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1564291150
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27922,7 +28108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1384514230}
-  content: {fileID: 1006404100}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1568364919
 GameObject:
   m_ObjectHideFlags: 0
@@ -27945,12 +28132,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1568364919}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35194397, y: -0.3963505, z: -0.27284098}
+  m_LocalPosition: {x: -7.5, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 0.85, z: 1}
   m_Children:
   - {fileID: 325781007}
   - {fileID: 683306830}
-  m_Father: {fileID: 1124516987}
+  m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573748754
@@ -28110,7 +28297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1591970887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28403,7 +28591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1610823804
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28640,7 +28829,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 935502033}
-  content: {fileID: 54422849}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1631509649
 GameObject:
   m_ObjectHideFlags: 0
@@ -28827,7 +29017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1640822794
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29264,7 +29455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 485931077}
-  content: {fileID: 1413301742}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1665824372
 GameObject:
   m_ObjectHideFlags: 0
@@ -29308,7 +29500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2110553072}
-  content: {fileID: 1723899772}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1668348367
 GameObject:
   m_ObjectHideFlags: 0
@@ -29352,7 +29545,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1698324690}
-  content: {fileID: 1177682005}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1669895498
 GameObject:
   m_ObjectHideFlags: 0
@@ -29397,7 +29591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1669895501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29550,7 +29745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1217909917}
-  content: {fileID: 1153823678}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1684399075
 GameObject:
   m_ObjectHideFlags: 0
@@ -30244,7 +30440,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1742393339
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30568,7 +30765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 253490552}
-  content: {fileID: 89489980}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1779692015
 GameObject:
   m_ObjectHideFlags: 0
@@ -30697,7 +30895,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1784186464
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30792,7 +30991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 341419330}
-  content: {fileID: 535774870}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1784732945
 GameObject:
   m_ObjectHideFlags: 0
@@ -30837,7 +31037,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1784732948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30962,7 +31163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1792010864
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31058,7 +31260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1799294749
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31153,7 +31356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 587539372}
-  content: {fileID: 455171921}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1801542671
 GameObject:
   m_ObjectHideFlags: 0
@@ -31197,7 +31401,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 13227706}
-  content: {fileID: 37613018}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1806030691
 GameObject:
   m_ObjectHideFlags: 0
@@ -31242,7 +31447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1806030694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31338,7 +31544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1806777558
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31395,11 +31602,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1652173234022744, guid: b10be8f71090bcc40891c95861b6cd45,
     type: 2}
   m_PrefabInternal: {fileID: 2007289614}
---- !u!4 &1811814147 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4648739083967694, guid: b10be8f71090bcc40891c95861b6cd45,
-    type: 2}
-  m_PrefabInternal: {fileID: 2007289614}
 --- !u!1 &1813014333
 GameObject:
   m_ObjectHideFlags: 0
@@ -31444,7 +31646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1813014336
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31539,7 +31742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 221678655}
-  content: {fileID: 115289988}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1817789351
 GameObject:
   m_ObjectHideFlags: 0
@@ -31584,7 +31788,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1817789354
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31876,7 +32081,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 173992820}
-  content: {fileID: 2124764924}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1860128610
 GameObject:
   m_ObjectHideFlags: 0
@@ -31920,7 +32126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1644182919}
-  content: {fileID: 352401035}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1862434744
 GameObject:
   m_ObjectHideFlags: 0
@@ -31965,7 +32172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1862434747
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32090,7 +32298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1870913755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32186,7 +32395,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1870925893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32281,7 +32491,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1882356988}
-  content: {fileID: 1447525591}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1874530050
 GameObject:
   m_ObjectHideFlags: 0
@@ -32383,7 +32594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1868897794}
-  content: {fileID: 1415394423}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1880684506
 GameObject:
   m_ObjectHideFlags: 0
@@ -32427,7 +32639,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1742219922}
-  content: {fileID: 611188418}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1882356988
 GameObject:
   m_ObjectHideFlags: 0
@@ -32585,7 +32798,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1908913383
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32765,7 +32979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1911753546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32944,7 +33159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 275779851}
-  content: {fileID: 2095918977}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1913319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -32989,7 +33205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1913319942
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33085,7 +33302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1917506432
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33265,7 +33483,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1928112416
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33361,7 +33580,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1929795326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33456,7 +33676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2002364102}
-  content: {fileID: 46326593}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1940885500
 GameObject:
   m_ObjectHideFlags: 0
@@ -33613,7 +33834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 353844277}
-  content: {fileID: 1990784963}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1943408486
 GameObject:
   m_ObjectHideFlags: 0
@@ -33658,7 +33880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1943408489
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33753,7 +33976,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 670007995}
-  content: {fileID: 2037875250}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1945531121
 GameObject:
   m_ObjectHideFlags: 0
@@ -33884,7 +34108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 735899121}
-  content: {fileID: 1732328372}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1955716347
 GameObject:
   m_ObjectHideFlags: 0
@@ -33929,7 +34154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1955716350
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34308,7 +34534,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1759293661}
-  content: {fileID: 2034923059}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1971776591
 GameObject:
   m_ObjectHideFlags: 0
@@ -34353,7 +34580,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1971776594
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34532,7 +34760,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 960661430}
-  content: {fileID: 1713395972}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1983240592
 GameObject:
   m_ObjectHideFlags: 0
@@ -34577,7 +34806,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1983240595
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34673,7 +34903,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1983542717
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34936,7 +35167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1633458852}
-  content: {fileID: 1143772547}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1995040224
 GameObject:
   m_ObjectHideFlags: 0
@@ -34981,7 +35213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1995040227
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35076,7 +35309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1728178520}
-  content: {fileID: 1625289187}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &1996993631
 GameObject:
   m_ObjectHideFlags: 0
@@ -35121,7 +35355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1996993634
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35301,7 +35536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1998429770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35397,7 +35633,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &1998459672
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35521,7 +35758,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 2044558406}
-  content: {fileID: 1176463023}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2000375361
 GameObject:
   m_ObjectHideFlags: 0
@@ -35640,19 +35878,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1124516987}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4648739083967694, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 7.851944
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4648739083967694, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.3963505
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4648739083967694, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.727159
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4648739083967694, guid: b10be8f71090bcc40891c95861b6cd45, type: 2}
       propertyPath: m_LocalRotation.x
@@ -35721,7 +35959,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2008340935
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35817,7 +36056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2008968715
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36138,7 +36378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1663280427}
-  content: {fileID: 2034198295}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2026565512
 GameObject:
   m_ObjectHideFlags: 0
@@ -36266,7 +36507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1169651973}
-  content: {fileID: 859479129}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2027140155
 GameObject:
   m_ObjectHideFlags: 0
@@ -36310,7 +36552,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1413643914}
-  content: {fileID: 875113039}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2029189954
 GameObject:
   m_ObjectHideFlags: 0
@@ -36355,7 +36598,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2029189957
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36450,7 +36694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 849971692}
-  content: {fileID: 1329768022}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2034198295
 GameObject:
   m_ObjectHideFlags: 0
@@ -36579,7 +36824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2034637142
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36985,7 +37231,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2046923575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37390,7 +37637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1965578383}
-  content: {fileID: 224511706}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2080692045
 GameObject:
   m_ObjectHideFlags: 0
@@ -37435,7 +37683,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2080692048
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37530,7 +37779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 173469308}
-  content: {fileID: 2141946431}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2084518009
 GameObject:
   m_ObjectHideFlags: 0
@@ -37603,7 +37853,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1041852107}
-  content: {fileID: 1271528856}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2090049351
 GameObject:
   m_ObjectHideFlags: 0
@@ -37731,7 +37982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1444294033}
-  content: {fileID: 1562661034}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2095918977
 GameObject:
   m_ObjectHideFlags: 0
@@ -37859,7 +38111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 289518468}
-  content: {fileID: 491058710}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2100244050
 GameObject:
   m_ObjectHideFlags: 0
@@ -37903,7 +38156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 274760131}
-  content: {fileID: 422325106}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2104917445
 GameObject:
   m_ObjectHideFlags: 0
@@ -38090,7 +38344,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2113368426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38185,7 +38440,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1945531121}
-  content: {fileID: 1561455877}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2121720150
 GameObject:
   m_ObjectHideFlags: 0
@@ -38229,7 +38485,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 564227764}
-  content: {fileID: 699454258}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2124764924
 GameObject:
   m_ObjectHideFlags: 0
@@ -38387,7 +38644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2127163012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38482,7 +38740,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 1057623821}
-  content: {fileID: 850200091}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!1 &2134219484
 GameObject:
   m_ObjectHideFlags: 0
@@ -38527,7 +38786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2134219487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38707,7 +38967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundHolder: {fileID: 0}
-  content: {fileID: 0}
+  natureTop: {fileID: 0}
+  civilizationTop: {fileID: 0}
 --- !u!23 &2146995882
 MeshRenderer:
   m_ObjectHideFlags: 0
