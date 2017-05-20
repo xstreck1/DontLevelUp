@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TileGenerator : MonoBehaviour {
     public GameObject tilePrefab;
-
+	public float noiseScale = 10f;
+	public float heightVariance = 1f;
 	// Use this for initialization
 	void Start () {
 		
@@ -30,7 +31,7 @@ public class TileGenerator : MonoBehaviour {
             for (int z = 0; z < Values.TILES_Z_COUNT; z++)
             {
                 Debug.Log(x + ", " + z);
-                float height = Random.Range(1f, 2f);
+				float height = 1f + heightVariance * Mathf.PerlinNoise(((float)x/(float)Values.TILES_X_COUNT) *noiseScale,((float)z/(float)Values.TILES_Z_COUNT)*noiseScale);
                 GameObject newTile = Instantiate(tilePrefab, new Vector3(x, height / 2f, z), Quaternion.identity, tilesHolder.transform);
                 newTile.transform.localScale += Vector3.up * (height - 2);
             }
