@@ -36,12 +36,31 @@ public class TileGenerator : MonoBehaviour
         {
             for (int z = 0; z < Values.TILES_Z_COUNT; z++)
             {
-				float height = heightVariance * Mathf.PerlinNoise(randomx + (((float)x/(float)Values.TILES_X_COUNT) *noiseScale), randomz + (((float)z/(float)Values.TILES_Z_COUNT)*noiseScale));
-                GameObject newTile = Instantiate(tilePrefab, new Vector3(-x, height / 2f, -z ), Quaternion.identity, tilesHolder.transform);
-                newTile.transform.localScale += Vector3.up * (height - 1f);
+                Tile newTile = Instantiate(tilePrefab, new Vector3(-x, 0f, -z ), Quaternion.identity, tilesHolder.transform).GetComponent<Tile>();
+                newTile.gameObject.SetActive(true);
+                float height = heightVariance * Mathf.PerlinNoise(randomx + (((float)x / Values.TILES_X_COUNT) * noiseScale), randomz + (((float)z / Values.TILES_Z_COUNT) * noiseScale));
+                newTile.groundHolder.transform.localScale += Vector3.up * (height - 1f);
+                if (height > Values.WATER_HEIGHT)
+                {
+                    if (Random.Range(0f, 1f) > .5f)
+                    {
+                        newTile.civilizationTop.SetActive(true);
+                        newTile.natureTop.SetActive(false);
+                        newTile.civilizationTop.transform.Translate(Vector3.up * height);
+                    }
+                    else
+                    {
+                        newTile.civilizationTop.SetActive(false);
+                        newTile.natureTop.SetActive(true);
+                        newTile.natureTop.transform.Translate(Vector3.up * height);
+                    }
+                }
+                else
+                {
+                    newTile.civilizationTop.SetActive(false);
+                    newTile.natureTop.SetActive(false);
+                }
             }
         }
-
-        tilesHolder.transform.Translate(new Vector3(-.5f, 0f, -.5f));
     }
 }
