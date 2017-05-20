@@ -40,16 +40,20 @@ public class TileGenerator : MonoBehaviour
                 newTile.gameObject.SetActive(true);
                 float height = heightVariance * Mathf.PerlinNoise(randomx + (((float)x / Values.TILES_X_COUNT) * noiseScale), randomz + (((float)z / Values.TILES_Z_COUNT) * noiseScale));
                 newTile.groundHolder.transform.localScale += Vector3.up * (height - 1f);
+                newTile.X = x;
+                newTile.Y = z;
                 if (height > Values.WATER_HEIGHT)
                 {
                     if (Random.Range(0f, 1f) > .5f)
                     {
+                        newTile.Type = TileType.Factory;
                         newTile.civilizationTop.SetActive(true);
                         newTile.natureTop.SetActive(false);
                         newTile.civilizationTop.transform.Translate(Vector3.up * height);
                     }
                     else
                     {
+                        newTile.Type = TileType.Green;
                         newTile.civilizationTop.SetActive(false);
                         newTile.natureTop.SetActive(true);
                         newTile.natureTop.transform.Translate(Vector3.up * height);
@@ -57,6 +61,7 @@ public class TileGenerator : MonoBehaviour
                 }
                 else
                 {
+                    newTile.Type = TileType.UnderWater;
                     newTile.civilizationTop.SetActive(false);
                     newTile.natureTop.SetActive(false);
                 }

@@ -8,7 +8,7 @@ public class TileGeneratorEditor : Editor
 {
 	SerializedProperty tilePrefabProp;
 	SerializedProperty scaleProp;
-	SerializedProperty varianceProp;
+    SerializedProperty varianceProp;
 
     private void OnEnable()
     {
