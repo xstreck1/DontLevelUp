@@ -17,6 +17,12 @@ public class Tile : MonoBehaviour {
     public int X, Y;
     public float Height;
 
+
+    SpriteAnimator natureSpriteAnim;
+    SpriteAnimator civilizationSpriteAnim;
+    SpriteFader natureSpriteFade;
+    SpriteFader civilizationSpriteFade;
+
     TileType type;
     public TileType Type
     {
@@ -38,8 +44,18 @@ public class Tile : MonoBehaviour {
                     civilizationTop.SetActive(false);
                     break;
                 case TileType.UnderWater:
-                    natureTop.SetActive(false);
-                    civilizationTop.SetActive(false);
+                    if (natureTop.activeSelf && natureSpriteAnim != null && natureSpriteAnim.HasDeathAnim)
+                        natureSpriteAnim.PlayDeath();
+                    else if (natureTop.activeSelf && natureSpriteFade != null && natureSpriteFade.HasDeathFade)
+                        natureSpriteFade.StartDeathFade();
+                    else
+                        natureTop.SetActive(false);
+                    if (civilizationTop.activeSelf && civilizationSpriteAnim != null && civilizationSpriteAnim.HasDeathAnim)
+                        civilizationSpriteAnim.PlayDeath();
+                    else if (civilizationTop.activeSelf && civilizationSpriteFade != null && civilizationSpriteFade.HasDeathFade)
+                        civilizationSpriteFade.StartDeathFade();
+                    else
+                        civilizationTop.SetActive(false);
                     break;
             }
 
@@ -49,6 +65,11 @@ public class Tile : MonoBehaviour {
     void Awake()
     {
         Logic.Instance.Tiles[X, Y] = this;
+        natureSpriteAnim = natureTop.GetComponent<SpriteAnimator>();
+        civilizationSpriteAnim = civilizationTop.GetComponent<SpriteAnimator>();
+        natureSpriteFade = natureTop.GetComponent<SpriteFader>();
+        civilizationSpriteFade = civilizationTop.GetComponent<SpriteFader>();
+
     }
 
     // Use this for initialization

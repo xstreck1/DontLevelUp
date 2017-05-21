@@ -6,10 +6,14 @@ public class SpriteAnimator : MonoBehaviour {
     [SerializeField]Texture2D[] InitialTextures;
     [SerializeField]Texture2D[] AnimLoopTextures;
     [SerializeField]float AnimDelay = 0.5f;
+    [SerializeField]public bool HasDeathAnim = false;
+    [SerializeField]Texture2D[] DeathAnimTextures;
+    [SerializeField]float DeathAnimDelay = 0.1f;
     int Count = 0;
     bool UsingInitialTextures = true;
     float LastIncrement = 0f;
     Renderer Rend;
+    bool PlayingDeath = false;
     // Use this for initialization
     void Awake()
     {
@@ -31,10 +35,29 @@ public class SpriteAnimator : MonoBehaviour {
         }
     }
 	
+    public void PlayDeath()
+    {
+        PlayingDeath = true;
+        StartCoroutine(PlayDeathCo());
+    }
+
+    IEnumerator PlayDeathCo()
+    {
+        Count = 0;
+        while (Count < DeathAnimTextures.Length)
+        {
+            LastIncrement = Time.time;
+            Rend.material.mainTexture = DeathAnimTextures[Count];
+            yield return new WaitForSeconds(DeathAnimDelay);
+            Count++;
+        }
+        gameObject.SetActive(false);
+    }
+
 	// Update is called once per frame
 	void Update ()
     {
-        if ((LastIncrement + AnimDelay) < Time.time)
+        if (!PlayingDeath && (LastIncrement + AnimDelay) < Time.time)
         { 
             LastIncrement = Time.time;
             Count++;
