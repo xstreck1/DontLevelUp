@@ -21,6 +21,6 @@ public static class Values
     public const float TEMP_HEIGHT_SCALE = 0.01f;
     public const float FACTORY_MONEY_SCALE = 0.1f;
 
-    public const float TREE_COST = 30f;
-    public const float FACTORY_COST = 60f;
+    public const float NATURE_COST = 1f;
+    public const float FACTORY_COST = 3f;
 }
