@@ -13,18 +13,18 @@ public static class Values
 
     public const float START_CO2_LEVEL = 400f;
 
-    public const float GREEN_CARBON_SCALE = 0.01f;
-    public const float FACTORY_CARBON_SCALE = 0.05f;
-    public const float WATER_CARBON_SCALE = 0.01f;
+    public const float GREEN_CARBON_SCALE = 0.02f;
+    public const float FACTORY_CARBON_SCALE = 0.1f;
+    public const float WATER_CARBON_SCALE = 0.02f;
 
-    public const float TEMP_CARBON_SCALE = 0.0005f;
-    public const float TEMP_HEIGHT_SCALE = .01f;
-    public const float FACTORY_MONEY_SCALE = .05f;
+    public const float TEMP_CARBON_SCALE = 0.00025f;
+    public const float TEMP_HEIGHT_SCALE = .025f;
+    public const float FACTORY_MONEY_SCALE = .025f;
 
     public const float NATURE_COST = 1f;
     public const float FACTORY_COST = 2f;
 
-    public const float SECONDS_PER_YEAR = 3f;
+    public const float SECONDS_PER_YEAR = 1f;
     public const float YEAR_LIMIT = 100f;
 
     public const float CARBON_LOWER_LIMIT = 150f;
