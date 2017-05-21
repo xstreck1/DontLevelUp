@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Logic : MonoBehaviour
 {
+    public Gradient gradient;
+
     static Logic instance;
     static public Logic Instance
     {

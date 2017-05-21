@@ -39,6 +39,11 @@ public class TileGenerator : MonoBehaviour
                 Tile newTile = Instantiate(tilePrefab, new Vector3(-x, 0f, -z ), Quaternion.identity, tilesHolder.transform).GetComponent<Tile>();
                 newTile.gameObject.SetActive(true);
                 float height = heightVariance * Mathf.PerlinNoise(randomx + (((float)x / Values.TILES_X_COUNT) * noiseScale), randomz + (((float)z / Values.TILES_Z_COUNT) * noiseScale));
+                // Clamping
+                if (height < 0.05f)
+                {
+                    height = 0.05f;
+                }
                 newTile.groundHolder.transform.localScale += Vector3.up * (height - 1f);
                 newTile.top.transform.Translate(Vector3.up * height);
                 newTile.X = x;

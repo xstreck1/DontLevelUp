@@ -17,7 +17,7 @@ public class Tile : MonoBehaviour {
     public int X, Y;
     public float Height;
 
-    TileType type;
+    [SerializeField] TileType type;
     public TileType Type
     {
         get
@@ -61,12 +61,12 @@ public class Tile : MonoBehaviour {
     {
         if (Height <= Logic.Instance.WaterHeight)
         {
-            if(type != TileType.UnderWater)
+            if(Type != TileType.UnderWater)
                 Type = TileType.UnderWater;
         }
         else
         {
-            if (type == TileType.UnderWater)
+            if (Type == TileType.UnderWater)
                 Type = TileType.Green;
         }
     }
