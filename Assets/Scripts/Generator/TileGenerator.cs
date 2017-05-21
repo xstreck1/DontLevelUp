@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TileGenerator : MonoBehaviour
 {
+    public GameWater water;
     public GameObject tilePrefab;
 	public float noiseScale = 10f;
 	public float heightVariance = 1f;
     // Use this for initialization
     void Start()
     {
-        GenerateTiles();
     }
 
     // Update is called once per frame
@@ -21,6 +21,8 @@ public class TileGenerator : MonoBehaviour
 
     public void GenerateTiles()
     {
+        water.WaterHeight = Values.START_WATER_HEIGHT;
+
         // Clean existing
         if (GameObject.Find(Strings.TILES_HOLDER))
         {
@@ -29,7 +31,6 @@ public class TileGenerator : MonoBehaviour
         Transform tilesHolder = new GameObject(Strings.TILES_HOLDER).transform;
 
         // Generate new
-
         float randomx = Random.Range(-1000f, 1000f);
         float randomz = Random.Range(-1000f, 1000f);
         for (int x = 0; x < Values.TILES_X_COUNT; x++)

@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeTime: 1
+  HasDeathFade: 0
 --- !u!114 &114050386091490662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -383,6 +384,9 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 4fdc0a771a8df7a42bfa0470e9cbbed0, type: 3}
   - {fileID: 2800000, guid: 3e58d9cd27e8dae4dafd7bace16afe48, type: 3}
   AnimDelay: 0.5
+  HasDeathAnim: 0
+  DeathAnimTextures: []
+  DeathAnimDelay: 0.1
 --- !u!114 &114355314518611508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -403,6 +407,18 @@ MonoBehaviour:
   - {fileID: 2800000, guid: c440829f43b96044498ead574b140d50, type: 3}
   - {fileID: 2800000, guid: f59bb8165b4cc1245aa9fd887cdb4007, type: 3}
   AnimDelay: 0.5
+  HasDeathAnim: 1
+  DeathAnimTextures:
+  - {fileID: 2800000, guid: b9b1f51b71c63214faab772ac27806bf, type: 3}
+  - {fileID: 2800000, guid: a4cc0668bca7b9945880a961a91cf58a, type: 3}
+  - {fileID: 2800000, guid: be9277795f635ef41afe090fe274f3a0, type: 3}
+  - {fileID: 2800000, guid: 8790cfd1dc35cde4991fbcc42c5663fa, type: 3}
+  - {fileID: 2800000, guid: 72aa010054659d847aa398de7524e470, type: 3}
+  - {fileID: 2800000, guid: eac4534bc0c2aec419ac4382873e750c, type: 3}
+  - {fileID: 2800000, guid: 92b26cc9b371a9645a2f77ca51735211, type: 3}
+  - {fileID: 2800000, guid: 5297fd07537b75040b1d1ab1f0ad9eac, type: 3}
+  - {fileID: 2800000, guid: e68b41f709680504fb6af8dbfcb84754, type: 3}
+  DeathAnimDelay: 0.1
 --- !u!114 &114658107782824656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -418,7 +434,6 @@ MonoBehaviour:
   top: {fileID: 1708819869859410}
   natureTop: {fileID: 1268132049915742}
   civilizationTop: {fileID: 1463793725681610}
-  type: 2
   X: 0
   Y: 0
   Height: 0
@@ -434,3 +449,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeTime: 1
+  HasDeathFade: 1

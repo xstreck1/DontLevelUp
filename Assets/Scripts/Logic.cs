@@ -16,7 +16,7 @@ public class Logic : MonoBehaviour
     {
         instance = this;
     }
-    public Transform Water;
+    public GameWater gameWater;
 
     [System.NonSerialized]public Tile[,] Tiles = new Tile[Values.TILES_X_COUNT, Values.TILES_Z_COUNT];
     public float CO2Level, WaterHeight, Temperature, Money, CurrentYear;
@@ -76,9 +76,9 @@ public class Logic : MonoBehaviour
         Temperature += Time.deltaTime * TempDelta;
         if (Temperature < 0)
             Temperature = 0;
-        WaterHeight = Values.START_WATER_HEIGHT + ((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
-        if (WaterHeight < 0)
-            WaterHeight = 0;
+
+        gameWater.ChangeHeight((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
+
         MoneyDelta = factoryCount * Values.FACTORY_MONEY_SCALE;
         Money += Time.deltaTime * MoneyDelta;
         UIManager.Instance.MoneyText.text = "Money: " + (int)Money + "B €";
@@ -89,6 +89,5 @@ public class Logic : MonoBehaviour
         UIManager.Instance.MoneyDeltaText.text = (MoneyDelta* Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
         UIManager.Instance.CarbonDeltaText.text = "    " + (CarbonDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
         UIManager.Instance.TempDeltaText.text = "    " + (TempDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
-        Water.localScale = new Vector3(1f, WaterHeight, 1f);
     }
 }

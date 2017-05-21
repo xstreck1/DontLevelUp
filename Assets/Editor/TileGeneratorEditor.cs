@@ -7,11 +7,13 @@ using UnityEditor;
 public class TileGeneratorEditor : Editor
 {
 	SerializedProperty tilePrefabProp;
-	SerializedProperty scaleProp;
+    SerializedProperty waterProp;
+    SerializedProperty scaleProp;
     SerializedProperty varianceProp;
 
     private void OnEnable()
     {
+        waterProp = serializedObject.FindProperty("water");
         tilePrefabProp = serializedObject.FindProperty ("tilePrefab");
 		scaleProp = serializedObject.FindProperty ("noiseScale");
 		varianceProp = serializedObject.FindProperty ("heightVariance");
@@ -21,7 +23,8 @@ public class TileGeneratorEditor : Editor
     {
         serializedObject.Update();
 
-		EditorGUILayout.PropertyField(tilePrefabProp, new GUIContent("tilePrefab"));
+        EditorGUILayout.PropertyField(waterProp, new GUIContent("water"));
+        EditorGUILayout.PropertyField(tilePrefabProp, new GUIContent("tilePrefab"));
 		EditorGUILayout.PropertyField(scaleProp, new GUIContent("noiseScale"));
 		EditorGUILayout.PropertyField(varianceProp, new GUIContent("heightVariance"));
 
