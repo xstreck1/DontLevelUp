@@ -64,11 +64,7 @@ public class Tile : MonoBehaviour {
 
     void Awake()
     {
-        Logic.Instance.Tiles[X, Y] = this;
-        natureSpriteAnim = natureTop.GetComponent<SpriteAnimator>();
-        civilizationSpriteAnim = civilizationTop.GetComponent<SpriteAnimator>();
-        natureSpriteFade = natureTop.GetComponent<SpriteFader>();
-        civilizationSpriteFade = civilizationTop.GetComponent<SpriteFader>();
+        StartCoroutine(lateStart());
 
     }
 
@@ -76,7 +72,15 @@ public class Tile : MonoBehaviour {
     void Start () {
 		
 	}
-	
+	IEnumerator lateStart()
+    {
+        yield return null;
+        Logic.Instance.Tiles[X, Y] = this;
+        natureSpriteAnim = natureTop.GetComponent<SpriteAnimator>();
+        civilizationSpriteAnim = civilizationTop.GetComponent<SpriteAnimator>();
+        natureSpriteFade = natureTop.GetComponent<SpriteFader>();
+        civilizationSpriteFade = civilizationTop.GetComponent<SpriteFader>();
+    }
 	// Update is called once per frame
 	void Update ()
     {
