@@ -10,7 +10,7 @@ public class TileGenerator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        GenerateTiles();
     }
 
     // Update is called once per frame

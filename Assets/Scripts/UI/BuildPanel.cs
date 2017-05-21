@@ -38,12 +38,12 @@ public class BuildPanel : MonoBehaviour {
         if (currentTile.Type == TileType.Factory)
         {
             title.text = Strings.FACTORY_TITLE;
-            cost.text = Values.NATURE_COST.ToString();
+            cost.text = Values.NATURE_COST + "B €";
         }
         else if (currentTile.Type == TileType.Green)
         {
             title.text = Strings.GREEN_TITLE;
-            cost.text = Values.FACTORY_COST.ToString();
+            cost.text = Values.FACTORY_COST + "B €";
         }
         if (currentTile.Type == TileType.UnderWater)
         {

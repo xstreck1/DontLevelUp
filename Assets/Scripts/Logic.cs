@@ -19,10 +19,10 @@ public class Logic : MonoBehaviour
     public Transform Water;
 
     [System.NonSerialized]public Tile[,] Tiles = new Tile[Values.TILES_X_COUNT, Values.TILES_Z_COUNT];
-    public float CO2Level = Values.START_CO2_LEVEL, WaterHeight = Values.START_WATER_HEIGHT, Temperature = +0f, Money = 100f, CurrentYear = 0f;
+    public float CO2Level, WaterHeight, Temperature, Money, CurrentYear;
 
 
-    float LastYearIncrement = 0f, CarbonDelta = 0f, TempDelta = 0f, MoneyDelta = 0f;
+    float CarbonDelta = 0f, TempDelta = 0f, MoneyDelta = 0f;
     // Use this for initialization
     //TileContainer[,] Tiles;
 
@@ -30,10 +30,9 @@ public class Logic : MonoBehaviour
     {
         CO2Level = Values.START_CO2_LEVEL;
         WaterHeight = Values.START_WATER_HEIGHT;
-        Temperature = +0f;
-        Money = 10f;
-        CurrentYear = 0f;
-        LastYearIncrement = Time.time;
+        Temperature = Values.START_TEMP;
+        Money = Values.START_MONEY;
+        CurrentYear = Values.START_YEAR;
     }
 	
 	// Update is called once per frame
@@ -60,12 +59,7 @@ public class Logic : MonoBehaviour
         }
 
 
-        if (LastYearIncrement + Values.SECONDS_PER_YEAR < Time.time)
-        {
-            LastYearIncrement = Time.time;
-            CurrentYear++;
-        }
-        if(CurrentYear >= Values.YEAR_LIMIT)
+        if ((CurrentYear += (1 / Values.SECONDS_PER_YEAR) * Time.deltaTime) >= Values.YEAR_LIMIT)
         {
             //game end?
         }
@@ -80,16 +74,16 @@ public class Logic : MonoBehaviour
             CO2Level = Values.CARBON_LOWER_LIMIT;
         TempDelta = (CO2Level - 280f) * Values.TEMP_CARBON_SCALE;
         Temperature += Time.deltaTime * TempDelta;
-        if (Temperature < -Values.TEMP_START)
-            Temperature = Values.TEMP_START;
-        WaterHeight = Values.START_WATER_HEIGHT + (Temperature * Values.TEMP_HEIGHT_SCALE);
+        if (Temperature < 0)
+            Temperature = 0;
+        WaterHeight = Values.START_WATER_HEIGHT + ((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
         if (WaterHeight < 0)
             WaterHeight = 0;
         MoneyDelta = factoryCount * Values.FACTORY_MONEY_SCALE;
         Money += Time.deltaTime * MoneyDelta;
-        UIManager.Instance.MoneyText.text = "Money: €" + (int)Money;
-        UIManager.Instance.CarbonText.text = "Carbon(PPM): " + (int)CO2Level;
-        UIManager.Instance.TempText.text = "Temperature(Celcius): " + (int)(Values.TEMP_START + Temperature);
+        UIManager.Instance.MoneyText.text = "Money: " + (int)Money + "B €";
+        UIManager.Instance.CarbonText.text = "CO<size=20>2</size>: " + (int)CO2Level + " (PPM)";
+        UIManager.Instance.TempText.text = "Temperature: " + (int)(Temperature) + "°C";
         UIManager.Instance.YearText.text = "Year: " + (int)CurrentYear;
         
         UIManager.Instance.MoneyDeltaText.text = (MoneyDelta* Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
