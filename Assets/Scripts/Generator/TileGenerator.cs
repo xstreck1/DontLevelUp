@@ -9,6 +9,11 @@ public class TileGenerator : MonoBehaviour
 	public float noiseScale = 10f;
 	public float heightVariance = 1f;
     // Use this for initialization
+    void Awake()
+    {
+        GenerateTiles();
+    }
+
     void Start()
     {
     }

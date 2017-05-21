@@ -41,6 +41,8 @@ public class Logic : MonoBehaviour
         {
             for (int z = 0; z < Values.TILES_Z_COUNT; z++)
             {
+                if (Tiles[x, z] == null)
+                    return;
                 switch (Tiles[x,z].Type)
                 {
                     case TileType.Factory:
