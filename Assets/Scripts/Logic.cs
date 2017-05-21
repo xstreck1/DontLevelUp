@@ -16,7 +16,6 @@ public class Logic : MonoBehaviour
     {
         instance = this;
     }
-    public GameWater gameWater;
 
     [System.NonSerialized]public Tile[,] Tiles = new Tile[Values.TILES_X_COUNT, Values.TILES_Z_COUNT];
     public float CO2Level, Temperature, Money, CurrentYear;
@@ -76,7 +75,7 @@ public class Logic : MonoBehaviour
         if (Temperature < 0)
             Temperature = 0;
 
-        gameWater.ChangeHeight((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
+        GameWater.Instance.ChangeHeight((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
 
         MoneyDelta = factoryCount * Values.FACTORY_MONEY_SCALE;
         Money += Time.deltaTime * MoneyDelta;

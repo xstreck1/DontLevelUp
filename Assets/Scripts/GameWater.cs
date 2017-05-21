@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameWater : MonoBehaviour {
+    static GameWater instance;
+    static public GameWater Instance
+    {
+        get { return instance; }
+    }
+    void Awake()
+    {
+        instance = this;
+    }
+
     public float WaterHeight
     {
         get

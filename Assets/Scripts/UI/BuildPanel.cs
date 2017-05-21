@@ -7,6 +7,7 @@ public class BuildPanel : MonoBehaviour {
     public Button buildButton;
     public Text title;
     public Text cost;
+    public Text height;
 
     Tile currentTile = null;
 
@@ -29,6 +30,7 @@ public class BuildPanel : MonoBehaviour {
         {
             buildButton.interactable = false;
         }
+        height.text = "Height: " + ((currentTile.Height - GameWater.Instance.WaterHeight) * Values.METER_TO_REAL_METER).ToString("0.000") + "m MSL";
     }
 
     public void SetTile(Tile tile)

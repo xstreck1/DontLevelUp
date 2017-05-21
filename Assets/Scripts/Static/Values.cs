@@ -33,4 +33,6 @@ public static class Values
 
     public const float CARBON_LOWER_LIMIT = 150f;
     public const float WATER_LOWER_LIMIT = .25f;
+
+    public const float METER_TO_REAL_METER = .5f;
 }
