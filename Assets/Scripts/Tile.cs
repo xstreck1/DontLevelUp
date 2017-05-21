@@ -80,7 +80,7 @@ public class Tile : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Height <= Logic.Instance.WaterHeight)
+        if (Height <= Logic.Instance.gameWater.WaterHeight)
         {
             if(Type != TileType.UnderWater)
                 Type = TileType.UnderWater;

@@ -19,7 +19,7 @@ public class Logic : MonoBehaviour
     public GameWater gameWater;
 
     [System.NonSerialized]public Tile[,] Tiles = new Tile[Values.TILES_X_COUNT, Values.TILES_Z_COUNT];
-    public float CO2Level, WaterHeight, Temperature, Money, CurrentYear;
+    public float CO2Level, Temperature, Money, CurrentYear;
 
 
     float CarbonDelta = 0f, TempDelta = 0f, MoneyDelta = 0f;
@@ -29,7 +29,6 @@ public class Logic : MonoBehaviour
     void Start()
     {
         CO2Level = Values.START_CO2_LEVEL;
-        WaterHeight = Values.START_WATER_HEIGHT;
         Temperature = Values.START_TEMP;
         Money = Values.START_MONEY;
         CurrentYear = Values.START_YEAR;
