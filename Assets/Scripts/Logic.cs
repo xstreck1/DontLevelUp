@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Logic : MonoBehaviour
 {
     public Gradient gradient;
+    public FinalScreen finalScreen;
 
     static Logic instance;
     static public Logic Instance
@@ -59,9 +60,11 @@ public class Logic : MonoBehaviour
         }
 
 
-        if ((CurrentYear += (1 / Values.SECONDS_PER_YEAR) * Time.deltaTime) >= Values.YEAR_LIMIT)
+        if ((CurrentYear += (1 / Values.SECONDS_PER_YEAR) * Time.deltaTime) >= Values.END_YEAR)
         {
-            //game end?
+            finalScreen.gameObject.SetActive(true);
+            finalScreen.score.text = (int)Money + "B €";
+            return;
         }
         if (waterCount == (Values.TILES_X_COUNT * Values.TILES_Z_COUNT))
         {

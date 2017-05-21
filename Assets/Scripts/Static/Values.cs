@@ -9,7 +9,7 @@ public static class Values
 
     public const float START_WATER_HEIGHT = .85f;
     public const float START_YEAR = 2017;
-    public const float END_YEAR = 2017;
+    public const float END_YEAR = 2117;
     public const float START_MONEY = 10;
     public const float START_TEMP = 14;
     public const float START_CO2_LEVEL = 400f;
