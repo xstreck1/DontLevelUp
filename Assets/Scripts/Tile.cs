@@ -14,10 +14,10 @@ public class Tile : MonoBehaviour {
     public GameObject top;
     public GameObject natureTop;
     public GameObject civilizationTop;
-    public TileType type;
     public int X, Y;
     public float Height;
 
+    TileType type;
     public TileType Type
     {
         get

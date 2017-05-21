@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Picking : MonoBehaviour {
-    public GameObject mainCamera;
     public LayerMask pickingLayer;
+    public BuildPanel buildPanel; 
 
     public static Vector2 PointerPosition()
     {
@@ -27,7 +27,7 @@ public class Picking : MonoBehaviour {
         }
         else
         {
-            return Input.GetMouseButtonDown(0);
+            return Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject();
         }
     }
 
@@ -50,11 +50,17 @@ public class Picking : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        buildPanel.gameObject.SetActive(false);
+    }
+
+    bool IsOnRight()
+    {
+        return PointerPosition().x * 2f > Screen.width;
+    }
 	
 	// Update is called once per frame
 	void Update () {
+
 
         if (PointerDown())
         {
@@ -62,6 +68,8 @@ public class Picking : MonoBehaviour {
             if (hit)
             {
                 Tile tileHit = hit.GetComponentInParent<Tile>();
+
+                // Debug info
                 if (tileHit)
                 {
                     Debug.Log("hit tile X" + tileHit.X + ", Y:" + tileHit.Y);
@@ -70,6 +78,20 @@ public class Picking : MonoBehaviour {
                 {
                     Debug.Log("hit " + hit.name);
                 }
+
+                buildPanel.gameObject.SetActive(tileHit);
+                // 
+                if (tileHit)
+                {
+                    Vector2 posDelta = PointerPosition();
+                    posDelta += (buildPanel.GetComponent<RectTransform>().sizeDelta.x / 4f + 50f) * (IsOnRight() ? Vector2.left : Vector2.right);
+                    buildPanel.transform.position = posDelta;
+                    buildPanel.SetTile(tileHit);
+                }
+            }
+            else
+            {
+                buildPanel.gameObject.SetActive(false);
             }
         }
     }
