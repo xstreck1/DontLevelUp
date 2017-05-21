@@ -16,6 +16,7 @@ public class Tile : MonoBehaviour {
     public GameObject civilizationTop;
     public TileType type;
     public int X, Y;
+    public float Height;
 
     public TileType Type
     {
@@ -41,6 +42,7 @@ public class Tile : MonoBehaviour {
                     civilizationTop.SetActive(false);
                     break;
             }
+
         }
     }
 
@@ -55,7 +57,17 @@ public class Tile : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Update ()
+    {
+        if (Height <= Logic.Instance.WaterHeight)
+        {
+            if(type != TileType.UnderWater)
+                Type = TileType.UnderWater;
+        }
+        else
+        {
+            if (type == TileType.UnderWater)
+                Type = TileType.Green;
+        }
+    }
 }

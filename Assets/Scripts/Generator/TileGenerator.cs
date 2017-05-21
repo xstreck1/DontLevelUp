@@ -43,9 +43,10 @@ public class TileGenerator : MonoBehaviour
                 newTile.top.transform.Translate(Vector3.up * height);
                 newTile.X = x;
                 newTile.Y = z;
-                if (height > Values.WATER_HEIGHT)
+                newTile.Height = height;
+                if (height > Values.START_WATER_HEIGHT)
                 {
-                    if (Random.Range(0f, 1f) > .5f)
+                    if (Random.Range(0f, 1f) < Values.FACTORY_GENERATION_CHANCE)
                     {
                         newTile.Type = TileType.Factory;
                     }
