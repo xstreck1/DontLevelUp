@@ -82,11 +82,11 @@ public class Logic : MonoBehaviour
         Money += Time.deltaTime * MoneyDelta;
         UIManager.Instance.MoneyText.text = "Money: " + (int)Money + "B €";
         UIManager.Instance.CarbonText.text = "CO<size=20>2</size>: " + (int)CO2Level + " (PPM)";
-        UIManager.Instance.TempText.text = "Temperature: " + (int)(Temperature) + "°C";
+        UIManager.Instance.TempText.text = "Temp: " + (int)(Temperature) + "°C";
         UIManager.Instance.YearText.text = "Year: " + (int)CurrentYear;
         
-        UIManager.Instance.MoneyDeltaText.text = (MoneyDelta* Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
-        UIManager.Instance.CarbonDeltaText.text = "    " + (CarbonDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
-        UIManager.Instance.TempDeltaText.text = "    " + (TempDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
+        UIManager.Instance.MoneyDeltaText.text = "Δ " + (MoneyDelta* Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
+        UIManager.Instance.CarbonDeltaText.text = "Δ " + (CarbonDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
+        UIManager.Instance.TempDeltaText.text = "Δ " + (TempDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
     }
 }
