@@ -8,7 +8,7 @@ public class BuildPanel : MonoBehaviour {
     public Text title;
     public Text cost;
 
-    TileType currentType = TileType.UnderWater;
+    Tile currentTile = null;
 
 	// Use this for initialization
 	void Start () {
@@ -17,11 +17,11 @@ public class BuildPanel : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (currentType == TileType.Factory)
+		if (currentTile.Type == TileType.Factory)
         {
             buildButton.interactable = Logic.Instance.Money > Values.NATURE_COST;
         }
-        else if(currentType == TileType.Green)
+        else if(currentTile.Type == TileType.Green)
         {
             buildButton.interactable = Logic.Instance.Money > Values.FACTORY_COST;
         }
@@ -31,21 +31,21 @@ public class BuildPanel : MonoBehaviour {
         }
     }
 
-    public void SetType(TileType tileType)
+    public void SetTile(Tile tile)
     {
-        currentType = tileType;
+        currentTile = tile;
 
-        if (tileType == TileType.Factory)
+        if (currentTile.Type == TileType.Factory)
         {
             title.text = Strings.FACTORY_TITLE;
             cost.text = Values.NATURE_COST.ToString();
         }
-        else if (tileType == TileType.Green)
+        else if (currentTile.Type == TileType.Green)
         {
             title.text = Strings.GREEN_TITLE;
             cost.text = Values.FACTORY_COST.ToString();
         }
-        if (tileType == TileType.UnderWater)
+        if (currentTile.Type == TileType.UnderWater)
         {
             title.text = Strings.UNDER_WATER_TITLE;
             cost.text = "";
@@ -54,6 +54,16 @@ public class BuildPanel : MonoBehaviour {
 
     public void Convert()
     {
-        Debug.Log("Convert");
+        if (currentTile.Type == TileType.Factory)
+        {
+            currentTile.Type = TileType.Green;
+            Logic.Instance.Money -= Values.NATURE_COST;
+        }
+        else if (currentTile.Type == TileType.Green)
+        {
+            currentTile.Type = TileType.Factory;
+            Logic.Instance.Money -= Values.FACTORY_COST;
+        }
+        SetTile(currentTile);
     }
 }

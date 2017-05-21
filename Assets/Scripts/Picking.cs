@@ -86,8 +86,12 @@ public class Picking : MonoBehaviour {
                     Vector2 posDelta = PointerPosition();
                     posDelta += (buildPanel.GetComponent<RectTransform>().sizeDelta.x / 4f + 50f) * (IsOnRight() ? Vector2.left : Vector2.right);
                     buildPanel.transform.position = posDelta;
-                    buildPanel.SetType(tileHit.type);
+                    buildPanel.SetTile(tileHit);
                 }
+            }
+            else
+            {
+                buildPanel.gameObject.SetActive(false);
             }
         }
     }
