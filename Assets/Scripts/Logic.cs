@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Logic : MonoBehaviour
@@ -62,8 +63,8 @@ public class Logic : MonoBehaviour
 
         if ((CurrentYear += (1 / Values.SECONDS_PER_YEAR) * Time.deltaTime) >= Values.END_YEAR)
         {
-            finalScreen.gameObject.SetActive(true);
-            finalScreen.score.text = (int)Money + "B €";
+            Results.SetResults();
+            SceneManager.LoadScene("endScene");
             return;
         }
         if (waterCount == (Values.TILES_X_COUNT * Values.TILES_Z_COUNT))
@@ -88,7 +89,8 @@ public class Logic : MonoBehaviour
         UIManager.Instance.CarbonText.text = "CO<size=20>2</size>: " + (int)CO2Level + " (PPM)";
         UIManager.Instance.TempText.text = "Temp: " + (int)(Temperature) + "°C";
         UIManager.Instance.YearText.text = "Year: " + (int)CurrentYear;
-        
+        UIManager.Instance.EndYearText.text = "Ends in " + (int)Mathf.Ceil(Values.END_YEAR - CurrentYear);
+
         UIManager.Instance.MoneyDeltaText.text = "Δ " + (MoneyDelta* Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
         UIManager.Instance.CarbonDeltaText.text = "Δ " + (CarbonDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";
         UIManager.Instance.TempDeltaText.text = "Δ " + (TempDelta * Values.SECONDS_PER_YEAR).ToString("0.000") + "/y";

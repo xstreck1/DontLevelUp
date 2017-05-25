@@ -14,6 +14,6 @@ public class UIManager : MonoBehaviour
     {
         instance = this;
     }
-    [SerializeField]public Text MoneyText, TempText, CarbonText, YearText, MoneyDeltaText, TempDeltaText, CarbonDeltaText;
+    [SerializeField]public Text MoneyText, TempText, CarbonText, YearText, EndYearText, MoneyDeltaText, TempDeltaText, CarbonDeltaText;
 
 }
