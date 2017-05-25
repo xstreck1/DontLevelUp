@@ -7,7 +7,7 @@ public static class Values
     public const int TILES_X_COUNT = 15;
     public const int TILES_Z_COUNT = 10;
 
-    public const float START_WATER_HEIGHT = .85f;
+    public const float START_WATER_HEIGHT = .6f;
     public const int START_YEAR = 2017;
     public const int PLAY_YEARS = 300;
     public const int END_YEAR = START_YEAR + PLAY_YEARS;
@@ -22,9 +22,9 @@ public static class Values
     public const float FACTORY_CARBON_SCALE = .25f;
     public const float WATER_CARBON_SCALE = 0.01f;
 
-    public const float TEMP_CARBON_SCALE = 0.00025f;
-    public const float TEMP_HEIGHT_SCALE = .05f;
-    public const float FACTORY_MONEY_SCALE = .5f;
+    public const float TEMP_CARBON_SCALE = 0.0003f;
+    public const float TEMP_HEIGHT_SCALE = .1f;
+    public const float FACTORY_MONEY_SCALE = .1f;
 
     public const float NATURE_COST = 2f;
     public const float FACTORY_COST = 5f;

@@ -54028,28 +54028,15 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1875591256087062, guid: 2f1334c350b0ec94584db4fdea9fce65, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1318752827181626, guid: 2f1334c350b0ec94584db4fdea9fce65, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114843693628688798, guid: 2f1334c350b0ec94584db4fdea9fce65,
+    - target: {fileID: 224354350165573354, guid: 2f1334c350b0ec94584db4fdea9fce65,
         type: 2}
-      propertyPath: m_RaycastTarget
-      value: 0
+      propertyPath: m_AnchoredPosition.x
+      value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114359957060078372, guid: 2f1334c350b0ec94584db4fdea9fce65,
+    - target: {fileID: 224584790496139924, guid: 2f1334c350b0ec94584db4fdea9fce65,
         type: 2}
-      propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114843693628688798, guid: 2f1334c350b0ec94584db4fdea9fce65,
-        type: 2}
-      propertyPath: m_Text
-      value: BUILD BUSINESS
+      propertyPath: m_AnchoredPosition.x
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f1334c350b0ec94584db4fdea9fce65, type: 2}
