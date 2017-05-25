@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4098f2c320ba36f438837699a6e80299
+timeCreated: 1495703754
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: The Bad Times St
+  fontNames:
+  - The Bad Times St
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
