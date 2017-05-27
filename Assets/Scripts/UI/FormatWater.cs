@@ -9,6 +9,6 @@ public class FormatWater : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         string waterChangeString = Results.WaterDiff > 0f ? Strings.INCREASED : Strings.DECREASED;
-        GetComponent<Text>().text = String.Format(GetComponent<Text>().text, waterChangeString, Results.WaterDiff * 1000f);
+        GetComponent<Text>().text = String.Format(GetComponent<Text>().text, waterChangeString, (int) (Results.WaterDiff * 1000));
     }
 }

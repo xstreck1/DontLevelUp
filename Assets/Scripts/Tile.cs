@@ -14,6 +14,7 @@ public class Tile : MonoBehaviour {
     public GameObject top;
     public GameObject natureTop;
     public GameObject civilizationTop;
+    public AudioSource waterSound;
     public int X, Y;
     public float Height;
 
@@ -44,6 +45,7 @@ public class Tile : MonoBehaviour {
                     civilizationTop.SetActive(false);
                     break;
                 case TileType.UnderWater:
+
                     if (natureTop.activeSelf && natureSpriteAnim != null && natureSpriteAnim.HasDeathAnim)
                         natureSpriteAnim.PlayDeath();
                     else if (natureTop.activeSelf && natureSpriteFade != null && natureSpriteFade.HasDeathFade)
@@ -86,13 +88,18 @@ public class Tile : MonoBehaviour {
     {
         if (Height <= GameWater.Instance.WaterHeight)
         {
-            if(Type != TileType.UnderWater)
+            if (Type != TileType.UnderWater)
+            {
+                waterSound.Play();
                 Type = TileType.UnderWater;
+            }
         }
         else
         {
             if (Type == TileType.UnderWater)
+            {
                 Type = TileType.Green;
+            }
         }
     }
 }

@@ -36,7 +36,7 @@ Shader "Custom/Gradient" {
 	{
 		UNITY_INITIALIZE_OUTPUT(Input, o);
 		float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
-			o.vertexColor = lerp(_Color, _Color2, worldPos.y / 1.5);
+			o.vertexColor = lerp(_Color, _Color2, worldPos.y / 2);
 		
 	}
 

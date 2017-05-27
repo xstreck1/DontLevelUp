@@ -9,6 +9,6 @@ public class FormatMoney : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        GetComponent<Text>().text = String.Format(GetComponent<Text>().text, Results.Money);
+        GetComponent<Text>().text = String.Format(GetComponent<Text>().text, (int)Results.Money);
     }
 }

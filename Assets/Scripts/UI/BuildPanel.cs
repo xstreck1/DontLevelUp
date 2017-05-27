@@ -90,5 +90,6 @@ public class BuildPanel : MonoBehaviour {
             Logic.Instance.Money -= Values.FACTORY_COST;
         }
         SetTile(currentTile);
+        GetComponent<AudioSource>().Play();
     }
 }

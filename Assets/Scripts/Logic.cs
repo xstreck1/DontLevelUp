@@ -72,18 +72,18 @@ public class Logic : MonoBehaviour
         }
 
         CarbonDelta = (-(greenCount * Values.GREEN_CARBON_SCALE) + (factoryCount * Values.FACTORY_CARBON_SCALE) - (waterCount * Values.WATER_CARBON_SCALE));
-        CO2Level += Time.deltaTime * CarbonDelta;
+        CO2Level += Time.deltaTime * CarbonDelta / Values.SECONDS_PER_YEAR;
         if (CO2Level < Values.CARBON_LOWER_LIMIT)
             CO2Level = Values.CARBON_LOWER_LIMIT;
         TempDelta = (CO2Level - 280f) * Values.TEMP_CARBON_SCALE;
-        Temperature += Time.deltaTime * TempDelta;
+        Temperature += Time.deltaTime * TempDelta / Values.SECONDS_PER_YEAR;
         if (Temperature < 0)
             Temperature = 0;
+        MoneyDelta = factoryCount * Values.FACTORY_MONEY_SCALE;
+        Money += Time.deltaTime * MoneyDelta / Values.SECONDS_PER_YEAR;
 
         GameWater.Instance.ChangeHeight((Temperature - Values.START_TEMP) * Values.TEMP_HEIGHT_SCALE);
 
-        MoneyDelta = factoryCount * Values.FACTORY_MONEY_SCALE;
-        Money += Time.deltaTime * MoneyDelta;
         UIManager.Instance.MoneyText.text = "Money: " + (int)Money + "B €";
         UIManager.Instance.CarbonText.text = "CO<size=20>2</size>: " + (int)CO2Level + " (PPM)";
         UIManager.Instance.TempText.text = "Temp: " + (int)(Temperature) + "°C";
